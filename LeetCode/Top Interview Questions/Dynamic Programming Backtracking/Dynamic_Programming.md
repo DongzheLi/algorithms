@@ -2,10 +2,10 @@
 
 ## Easy DP Questions:
 
-+ [Climbing Stairs](./Solution/ClimbingStairs.md)
-+ [Best time to buy and sell stock]()
-+ [Maximum Subarray]()
-+ [House Robber]()
++ [Climbing Stairs](./Solution/ClimbingStairs.md): From recursion to recursion with memorization to DP.
++ [Best time to buy and sell stock](./Solution/BuySellStock.md): Not really a DP question, but need to figure out what variables to keep acount of.
++ [Maximum Subarray](./Solution/MaximumSubarray.md): Very good DP question, use Greedy as well.
++ [House Robber](./Solution/HouseRobber.md): Very classic DP question.
 
 ## Medium DP Questions:
 
