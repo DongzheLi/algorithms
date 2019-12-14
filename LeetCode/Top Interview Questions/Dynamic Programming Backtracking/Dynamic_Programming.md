@@ -11,8 +11,8 @@
 
 + [Jump Game](./Solution/JumpGame.md): Very classic
 + [Unique Paths](./Solution/UniquePath.md): Very classic, from Recursion -> Recursion with Memorization -> DP
-+ [Coin Change]()
-+ [Longest Increasing Subsequence]()
++ [Coin Change](./Solution/CoinChange.md): Yet another very good question, 
++ [Longest Increasing Subsequence](./Solution/LongestIncreasingSubsequence.md):
 
 ## Medium Backtracking Questions:
 
