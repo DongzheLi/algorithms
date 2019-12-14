@@ -6,10 +6,10 @@ Array type of questions were asked in interviews frequently.
 
 + [Remove Duplicates from Sorted Array](RemoveDuplicates.md)
 + [Best Time to Buy and Sell Stock II](BuySellStock.md)
-+ [Rotate Array](./array_easy/RotateArray.md) : Reverse an Array, in place rotating is very hard
++ [Rotate Array](./Solution/RotateArray.md) : Reverse an Array, in place rotating is very hard
 + [Contains Duplicate](ContainsDuplicate.md)
-+ [Single Number](./array_easy/SingleNumber.md) : HashSet(HashMap), bit manipulation, `XOR`: exclusive or
-+ [Intersection of Two Arrays II](./array_easy/IntersectTwoArrays.md): HashMap(value_in_array, count_occurence), Arrays.sort()
++ [Single Number](./Solution/SingleNumber.md) : HashSet(HashMap), bit manipulation, `XOR`: exclusive or
++ [Intersection of Two Arrays II](./Solution/IntersectTwoArrays.md): HashMap(value_in_array, count_occurence), Arrays.sort()
 + [Plus One](PlusOne.md)
 + [Move Zeros](MoveZeros.md)
 + [Two Sum](TwoSum.md): HashMap: (value_in_array,index) 

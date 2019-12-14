@@ -1,0 +1,31 @@
+      i: 0 1 2 3 4 5 6 7 8 9
+----------------------------
+A. a[i]: 1 2 3 0 1 1 1 4 4 5
+B. a[i]: 9 0 0 0 0 0 9 9 9 9
+C. a[i]: 1 2 3 4 5 6 7 8 9 9
+D. a[i]: 0 0 0 0 0 1 1 1 6 2
+E. a[i]: 0 0 0 0 0 1 1 1 6 8
+F. a[i]: 0 0 0 1 1 3 3 7 7 7
+
+Which one is impossible for weighted quick union?
+
+A.
+0
+3
+2
+1
+0
+impossible, has a cycle in the parent-link representation
+
+B.
+    9
+    0           9
+1 2 3 4 5     6 7 8
+impossible, 0 is the root of a larger tree.
+
+C.
+impossible, tree height is <= log10
+E.
+impossible, tree height > log10
+F.
+impossible, tree height rooted at 0 = 3 > log7

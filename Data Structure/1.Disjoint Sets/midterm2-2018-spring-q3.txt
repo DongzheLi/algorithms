@@ -1,0 +1,55 @@
+3. Weighted Quick Union.
+a) (10 points). Define a “fully connected” DisjointSets object as one in which connected returns true
+for any arguments, due to prior calls to union. Suppose we have a fully connected DisjointSets object
+with 6 items. Give the best and worst case height for the two implementations below. The height is the
+number of links from the root to the deepest leaf, i.e. a tree with 1 element has a height of 0. Give your
+answer as an exact value. Assume Heighted Quick Union is like Weighted Quick Union, except uses
+height instead of weight to determine which subtree is the new root.
+                                    Best case Height             worst case Height
+Weighted Quick Union                    1                               2
+Heighted Quick Union                    1                               2
+
+Best case:                              1
+                                    2 3 4 5 6
+worst case:   the height will not be bigger than log(n)
+2-1
+1 3 4 5 6
+2
+
+3-1
+  1 4 5 6
+ 2 3
+
+5-4
+  1   4  6
+ 2 3  5
+
+6-4
+  1    4
+ 2 3  5 6
+
+4-1
+    1
+ 2  3   4
+       5 6
+So height 2
+
+b) (8 points). Suppose we have a Weighted Quick Union object of height H. Give a general formula for
+the minimum number of objects in a tree of height H as a function of H. Your answer must be exact (e.g.
+not big theta).
+2^H
+
+
+c) (6 points). Draw a Quick Union tree that would be possible for Heighted Quick Union, but
+impossible for Weighted Quick Union. If no such tree exists, simply write “none exists.”
+
+Answer: Basically it is asking could the shorter one be heavier.
+
+        1                    3
+      2                   4  5  6
+
+      Heighted quick union
+
+      1
+    2   3
+      4 5 6
