@@ -9,8 +9,8 @@
 
 ## Medium DP Questions:
 
-+ [Jump Game]()
-+ [Unique Paths]()
++ [Jump Game](./Solution/JumpGame.md): Very classic
++ [Unique Paths](./Solution/UniquePath.md): Very classic, from Recursion -> Recursion with Memorization -> DP
 + [Coin Change]()
 + [Longest Increasing Subsequence]()
 
