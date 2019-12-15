@@ -46,7 +46,7 @@
 + [Combination Sum]()
 + [Longest Palindromic Substring]()
 
-## Adoe Interview;
+## Adobe Interview;
 
 + [Maximal Rectangle]()
   
