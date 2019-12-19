@@ -104,3 +104,55 @@ Generally, an LLRB has no more than 2x the height of its 2-3 tree
 + Every path from root to a leaf has same number of black links (because 2-3 tree has same number of links to every leaf)
 
 ## Construction of LLRB
+
+There exists a 1-1 mapping between : 2-3 tree and LLRB.
+
+![](img/1-1.png)
+
+### Design Task 1: Insertion Color
+
+Should we use a read or black link when inserting?
+
++ use red! In 2-3 tree new values are always added to a leaf node(at first)
+
+![insertion color](img/insertioncolor.png)
+
+### Design Task 2: Insertion on the right
+
+Suppose we have leaf E, and insert S with a red link. What do we do?????
+
+Right red links are not allowed, so rotateLeft(E).
+
+![](img/insertionontheright.png)
+
+
+#### What is rotate left?
+
+![](img/rotateleft.png)
+
+#### Representation of Temporary 4-nodes
+
+![](img/4-nodes.png)
+
+### Design Task 3: Double Insertion on the left
+
+Suppose we have the LLRB below and insert E. We end up with the wrong representation for our temporary 4 node. What should we do so that the temporary 4 node has 2 red children(one left, one right) as expected.
+
+![](img/temporary4nodes.png)
+
+So, what do we do????
+
+We need to rotate Z right.
+
+![rotate right](img/rotateRight.png)
+
+
+### Design Task 4: Splitting Temporary 4-nodes
+
+Suppose we have the LLRB below which includes a temporary 4 node, what should we do next?
+
+![](img/spiting4-nodes.png)
+
+***Flip the colors of all edges touching B***
+
+![](img/summary.png)
