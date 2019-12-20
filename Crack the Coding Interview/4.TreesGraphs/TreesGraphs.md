@@ -82,7 +82,7 @@ root.right = sortedArrayToBST(arr1[array.length/2+1, array.length -1])
 
 Given a binary tree, design an algorithm which creates a linked list of all the nodes at each depth.
 
-### Solution Recursion:
+### Solution 1 Recursion:
 
 My thoughts:
 
@@ -313,4 +313,6 @@ class Solution {
 Write an algorithm to find the "next" node (i.e. in-order successor) of a given node in a binary search tree. You many assume that each node has a link to its parent.
 
 [Leetcode question](https://leetcode.com/problems/inorder-successor-in-bst/)
+
+
 
