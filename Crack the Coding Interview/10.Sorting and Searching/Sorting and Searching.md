@@ -9,6 +9,10 @@
 5. [Merge Sort](Sorting/5.Merge&#32;Sort.md): More important.
 6. [Quick(Partition) Sort](Sorting/6.Partition&#32;Sort.md): The most important one
 
+## Searching
+
+1. [Binary Search](Sorting/7.Binary&#32;Search.md)
+
 
 ## Summary
 
