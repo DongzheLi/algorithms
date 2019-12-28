@@ -18,9 +18,9 @@ Array
 String
 
 
-- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) : [Sliding window](2.Strings/Longest&#32;Substring&#32;Without&#32;Repeating&#32;Characters.md)
+- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/): [Sliding Window](2.Strings/Longest&#32;Repeating&#32;Character&#32;Replacement.md)
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):[lala](2.Strings/Minimum&#32;Window&#32;Substring.md)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)

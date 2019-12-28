@@ -1,6 +1,6 @@
 # Basics of Bit Manipulation
 
-Bitwise OR
+## Bitwise OR
 
 "|" : takes 2 operands. 
 
@@ -22,7 +22,7 @@ or      |
 
 ---
 
-Bitwise AND
+## Bitwise AND
 
 "&" : takes 2 operands. 
 
@@ -41,7 +41,7 @@ or      &
 
 ---
 
-Bitwise Complement
+## Bitwise Complement
 
 "~" : takes one operand
 
@@ -61,7 +61,7 @@ Bitwise complement Operation of 15
 
 ---
 
-Bitwise XOR
+## Bitwise XOR
 
 "^" : takes 2 operands.
 
@@ -82,7 +82,7 @@ ________
 
 ---
 
-Signed Left Shift
+## Signed Left Shift
 
 "<< x" : shift the bit pattern to the left by x times.
 
@@ -99,7 +99,7 @@ Example:
 
 ---
 
-Signed Right Shift
+## Signed Right Shift
 
 ">> x" : adds x zero bits shifted to the high order position.
 
@@ -138,7 +138,7 @@ x | x = x
 
 ---
 
-Two's Complement and Negative Numbers
+## Two's Complement and Negative Numbers
 
 -K(negative K) as a N-bit number is concat(1, 2^(N-1) - k)
 
@@ -167,7 +167,7 @@ prepend 1 for the sign
 
 ---
 
-Arithmetic vs. Logical Right Shift
+## Arithmetic vs. Logical Right Shift
 
 1. Arithmetic right shift: divides by two, ">>"
 
@@ -192,7 +192,7 @@ then put 0 in the front
 
 ---
 
-Questions:
+## Questions:
 
 What do you think these functions would do on parameters x = -93242 and count = 40?
 
@@ -218,7 +218,7 @@ Arithmetic shift gives us -1: because we are shifting a 1 into the most signific
 
 ---
 
-Common bit tasks: Getting and Setting
+## Common bit tasks: Getting and Setting
 
 Get Bit
 
