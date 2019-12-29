@@ -1,15 +1,31 @@
 ## Array
 
-+ [Two Sum](https://leetcode.com/problems/two-sum/)
-+ [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-+ [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-+ [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-+ [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+HashMap or HashSet
 
-- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [3Sum](https://leetcode.com/problems/3sum/)
-- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
++ [Two Sum](https://leetcode.com/problems/two-sum/) : [HashMap : (key, value) = (element, its index)](1.Array/Two&#32;Sum.md)
++ [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)[HashMap, HashSet to count frequency](1.Array/Contains&#32;Duplicate.md)
++ [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) : [just maturity in writing code](1.Array/Product&#32;of&#32;Array&#32;Ecept&#32;Self.md)
+
+---
+
+Local maximal to Global maximal
+
++ [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) : [local maximal lead to global maximal](1.Array/Buy&#32;and&#32;Sell&#32;Stock.md)
++ [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) : [Find right variable to keep track, local maximal lead to global maximal](1.Array/Maximum&#32;Subarray.md)
+
+---
+
+Binary Search
+
++ [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) : [Binary Search, CTCI has better questions in this topic](1.Array/Find&#32;Mininum&#32;in&#32;rotated&#32;array.md)
++ [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) : [Binary search](1.Array/Search&#32;in&#32;Rotated&#32;Array.md)
+
+---
+
+Two pointer
+
++ [3Sum](https://leetcode.com/problems/3sum/): [Two pointers](1.Array/Three&#32;Sum.md)
++ [Container With Most Water](https://leetcode.com/problems/container-with-most-water/): [Two pointer](1.Array/Container&#32;with&#32;most&#32;water.md)
 
 
 ---

@@ -8,3 +8,4 @@ I started on 2019/12/10, forgot to track progress until today, 2019/12/27. I bas
 | ---------- | --------- | ------------------- |
 | 2019/12/27 | 160mins   | Trie implementation |
 | 2019/12/28 | 150mins   | Top 75: Strings     |
+| 2019/12/29 | 180mins   | Top 75: Arrays     |
