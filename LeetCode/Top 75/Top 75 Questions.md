@@ -1,4 +1,4 @@
-Array
+## Array
 
 + [Two Sum](https://leetcode.com/problems/two-sum/)
 + [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -15,18 +15,28 @@ Array
 ---
 
 
-String
+## String
 
+Sliding windows:
 
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) : [Sliding window](2.Strings/Longest&#32;Substring&#32;Without&#32;Repeating&#32;Characters.md)
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/): [Sliding Window](2.Strings/Longest&#32;Repeating&#32;Character&#32;Replacement.md)
-- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):[lala](2.Strings/Minimum&#32;Window&#32;Substring.md)
-- [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+
+HashMap for frequency table ( int[126] ):
+
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):[Sliding window, use HashMap to keep frequency of occurence](2.Strings/Minimum&#32;Window&#32;Substring.md)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/): [HashMap for frequency-count table, int array for ASCII count](2.Strings/Valid&#32;Anagram.md)
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/):[turn string into char array, turn char array back to string](2.Strings/Group&#32;Anagrams.md)
+
+Stack:
+
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/):[Use stack to track parentheses](2.Strings/Valid&#32;Parentheses.md)
+
+Palindrome, two pointers:
+
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/): [Two pointers, one from start ,one from end](2.Strings/Valid&#32;Palindrome.md)
+- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/): [Expand from middle to check for palindromic substring](2.Strings/Longest&#32;Palindromic&#32;Substring.md)
+- [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) : [Expand from middle to check for odd even case palindrome](2.Strings/Palindromic&#32;Substrings.md)
 - [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)
 
 
