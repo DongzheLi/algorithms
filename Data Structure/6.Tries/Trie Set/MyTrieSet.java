@@ -1,4 +1,3 @@
-import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.ArrayList;
@@ -9,7 +8,7 @@ public class MyTrieSet implements TrieSet61B {
     /** Node is an object has {isKey: boolean, children: HashMap<Character, Node>} */
     private class TrieNode {
         private boolean isKey;
-        private HashMap<Character, Node> children;
+        private HashMap<Character, TrieNode> children;
         
         public TrieNode(boolean isKey) {
             children = new HashMap<>();
@@ -36,7 +35,7 @@ public class MyTrieSet implements TrieSet61B {
     }
     /** Private helper: Return the node where key last char ends on. */
     private TrieNode find(String key) {
-        Node curr = root; 
+        TrieNode curr = root; 
         for (int i = 0; i < key.length(); i++) {
             char c = key.charAt(i);
             if (!curr.children.containsKey(c)) return null;
@@ -50,7 +49,7 @@ public class MyTrieSet implements TrieSet61B {
     public void add(String key) {
         if (key == null || key.length() < 1) throw new IllegalArgumentException();
     
-        Node curr = root;
+        TrieNode curr = root;
         for (int i = 0; i < key.length(); i++) {
             char c = key.charAt(i);
             if (!curr.children.containsKey(c)) {    // if root.children doesn't have this key, then put it in
@@ -68,17 +67,17 @@ public class MyTrieSet implements TrieSet61B {
     @Override
     public List<String> keysWithPrefix(String prefix) {
         List<String> keys = new ArrayList<>();
-        Node n = find(prefix);      
+        TrieNode n = find(prefix);      
         collect(prefix, keys, n);
         return keys;
     }
 
     /** Collect all the strings with prefix. */
-    private void collect(String s, List<String> x, Node n) {
+    private void collect(String s, List<String> x, TrieNode n) {
         if (n == null) return;
         if (n.isKey) x.add(s);
-        for (char c : n.map.keySet()) {
-            collect(s + c, x, n.map.get(c));
+        for (char c : n.children.keySet()) {
+            collect(s + c, x, n.children.get(c));
         }
     }
 
