@@ -11,5 +11,7 @@ I started on 2019/12/10, forgot to track progress until today, 2019/12/27. I bas
 | 2019/12/29 | 180mins   | Top 75: Arrays             |
 | 2019/12/29 | 90mins    | Data Structure: Hash Table |
 | 2019/12/29 | 320mins   | Top 75: Trees              |
+| 2020/01/02 | 100mins   | Data Structure: K-D Tree   |
+
 
 
