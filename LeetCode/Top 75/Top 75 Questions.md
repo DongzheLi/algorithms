@@ -85,10 +85,10 @@
 
 ## Dynamic Programming
 
-- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [Coin Change](https://leetcode.com/problems/coin-change/)
-- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) : [Easy memorized recursion](4.DP/Climbing&#32;Stairs.md)
+- [Coin Change](https://leetcode.com/problems/coin-change/) : [Classic DP, memoarized recursion, slightly more complex code](4.DP/Coin&#32;Change.md)
+- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) : [Super good question, a bit too hard, but very instructional](4.DP/Longest&#32;Increasing&#32;Subsequence.md)
+- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) : [Another very instructional solution, find out the induction trick -> recursion -> recursion with memo -> dp](4.DP/Longest&#32;Common&#32;Subsequence.md)
 - [Word Break Problem](https://leetcode.com/problems/word-break/)
 - [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [House Robber](https://leetcode.com/problems/house-robber/)
