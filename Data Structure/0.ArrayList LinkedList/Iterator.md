@@ -84,7 +84,3 @@ for (Iterator<String> p = C.iterator(); p.hasNext();) {
     System.out.println(i + " ");
 }
 ```
-
-------
-
-## 2.2 The Java Collection Abstractions

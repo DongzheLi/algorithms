@@ -2,11 +2,17 @@
 
 ## Tree Traversal Orderings
 
+
+![](img/treeexample.png)
+
+----
+
 1. Breadth First Traversals
    
    Level Order : Visit top-to-bottom, left-to-right(like reading in English): D, B, F, A, C, E, G
 
-![](img/treeexample.png)
+   [Implementaion](Levelorder.md)
+
 
 2. Depth First Traversals
 
@@ -24,7 +30,7 @@
     }
     ```
 
-    Pre: "Visit" a node first.
+    [Iterative with A Stack](Preorder.md)
 
 + Inorder: Traverse left child, visit the node, then traverse right child: 
    
@@ -39,6 +45,8 @@
    }
    ```
 
+   [Iterative Implementation](Inorder.md)
+
 + Postorder: Traverse left, Traverse right, then visit the node:
 
     A C B E G F D
@@ -52,22 +60,5 @@
     }
     ```
 
-## Human tricks:
+    [Iterative Implementation](Postorder.md)
 
-![](img/trick.png)
-
-## What good are these Traversals?
-
-1. Preorder for printing directory listing:
-
-![](img/ls.png)
-
-2. Postorder for gathering file sizes:
-
-![](img/gatherfilesize.png)
-
-to be this
-
-![](img/filesize.png)
-
-3. Inorder seems obvious, if it is a binary search tree, in-order would give you a increasing array(sorted).
