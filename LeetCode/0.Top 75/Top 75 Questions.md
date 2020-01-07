@@ -128,14 +128,15 @@ Trie
 
 ## Graph
 
-- [Clone Graph](https://leetcode.com/problems/clone-graph/)
-- [Course Schedule](https://leetcode.com/problems/course-schedule/)
-- [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [Clone Graph](https://leetcode.com/problems/clone-graph/) : [DFS is way easier to write, BFS is doable too.](7.Graph/Clone&#32;Graph.md)
+- [Course Schedule](https://leetcode.com/problems/course-schedule/) [Topological Sort via DFS](7.Graph/Course&#32;Schedule.md)
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/) : [DFS + little trick](7.Graph/Number&#32;of&#32;Islands.md)
+- [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) : [DFS + Build adjancency list from edge list, same as number of islands](7.Graph/Connected&#32;Components.md)
+- [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) : [DFS + Build tree, same as the last one](7.Graph/Graph&#32;Valid&#32;Tree.md)
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
-- [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
-- [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) : [The code is too complicated]
+
 
 ---
 

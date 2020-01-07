@@ -38,3 +38,34 @@ Two are Three Graph implementations:
 + [Breadth First Search](Graph/BreadthFirstPaths.java) : Find a shortest path from s to every other reachable vertex
 
 Runtime : O(V + E), very very hard.
+
+
+# Topological Sorting
+
+This is an application of DFS.
+
+Algorithm:
+
++ Perform a DFS traversal from every vertex in the graph, not clearing marking in between traversals.
++ Record DFS postorder along the way.
++ Topological ordering in the reverse of the postorder.
+
+Why it works:
+
+Each vertex is added to the end of the postorder list only after considering all descendants of v.
+
+```
+topological(DAG):
+    initialize marked array
+    initialize postOrder list
+    for all vertices in DAG:
+        if vertex is not marked:
+            dfs(vertex, marked, postOrder)
+    return postOrder reversed
+
+dfs(vertex, marked, postOrder):
+    marked[vertex] = true
+    for neighbor of vertex:
+        dfs(neighbor, marked, postOrder)
+    postOrder.add(vertex)
+```

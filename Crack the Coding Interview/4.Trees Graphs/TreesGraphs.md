@@ -24,11 +24,50 @@
 
 - Grapsh Search
 
-- Depth-first Search
+  - Depth-first Search : pseudocode
 
-- Breadth-first Search
+    ```java
+    void search(Node root) {
+        if (root == null) return;
+        visit(root);
+        root.visited = true;
+        for each (Node n in root.neighbors) {
+            if n.visited == false :
+                search(n);
+        }
+    }
+    ```
+
+  - Breadth-first Search : Use a Queue, its not recursive
+
+    ```
+    void search(Node root) {
+        Queue queue = new Queue();
+        root.marked = true;
+        queue.enqueue(root);    // add root to the queue
+
+        while (!queue.isEmpty()) {
+            Node r = queue.dequeue();
+            visit(r);   // do whatever
+            for (Node n: root.neighor) {
+                if n.marked == false {
+                    n.marked = true;
+                    queue.enqueue(n);
+                }
+            }
+        }
+    }
+    ```
 
 # Questions
+
+Graph:
+
+1. [Path between two Nodes](Questions/1.Path&#32;between&#32;two&#32;Nodes.md) : [BST or DST]
+
+7. [Build Order](Questions/7.BuildOrder.md)
+
+Trees:
 
 2. [Minimal Tree](Questions/2.MinimalTree.md)
 
@@ -40,6 +79,10 @@
 
 6. [Inorder Successor](Questions/6.InorderSuccessor.md)
 
-7. [Build Order](Questions/7.BuildOrder.md)
-
 8. [First Common Ancestor](Questions/8.FirstCommonAncestor.md)
+
+9. [BST Sequences](Questions/9.BSTsequences.md)
+
+10. [Check Subtree](Questions/10.Check&#32;Subtree.md)
+
+11. [Paths with Sum](Questions/12.PathsWithSum.md)
