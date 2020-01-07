@@ -16,6 +16,8 @@ I started on 2019/12/10, forgot to track progress until today, 2019/12/27. I bas
 | 2020/01/04 | 180mins   | Top 75: DP, 4 questions         |
 | 2020/01/05 | 60mins    | Data Structure: Graph Traversal |
 | 2020/01/05 | 260mins   | CTCI: Recursion and DP          |
+| 2020/01/06 | 220mins   | Data Structure: Graph, DFS, BSF |
+
 
 
 
