@@ -20,6 +20,8 @@ I started on 2019/12/10, forgot to track progress until today, 2019/12/27. I bas
 | 2020/01/07 | 220mins   | Top 75: DFS, BFS, Topological sort |
 | 2020/01/07 | 170mins   | Top 75: Intervals                  |
 | 2020/01/08 | 100mins   | Top 75: Bits                       |
+| 2020/01/08 | 90mins    | Top 75: Matrix                     |
+
 
 
 

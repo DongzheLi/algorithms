@@ -160,10 +160,10 @@ Topological sort
 
 ## Matrix
 
-- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [Word Search](https://leetcode.com/problems/word-search/)
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) : [Use first row and column to record in place](../../Crack&#32;the&#32;Coding&#32;Interview/1.Arrays&#32;and&#32;Strings/Questions/8.ZeroMatrix.md)
+- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) : [Best practice for matrix indexing](9.others/Spiral&#32;Matrix.md)
+- [Rotate Image](https://leetcode.com/problems/rotate-image/) : [Transpose, reverse = Rotate](9.others/Rotate&#32;Image.md)
+- [Word Search](https://leetcode.com/problems/word-search/) : [Some type of DFS in matrix](9.others/Word&#32;Search.md)
 
 ---
 
