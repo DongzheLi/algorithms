@@ -169,11 +169,17 @@ Topological sort
 
 ## Binary
 
-- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [Missing Number](https://leetcode.com/problems/missing-number/)
-- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+Easy Basic :
+
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) : [Mask (&) and Loop over a binary number with shift](9.others/Number&#32;of&#32;1&#32;Bits.md)
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/) : [Loop a binary number with shift, add to result with `|` ](9.others/Reverse&#32;Bits.md)
+- [Missing Number](https://leetcode.com/problems/missing-number/) : [XOR : n ^ n = 0](9.others/Missing&#32;Number.md)
+- [Reverse Integer](https://leetcode.com/problems/reverse-integer/solution/) : [Convert a number to centain base 7, base 16](9.others/Reverse&#32;Integer.md)
+  
+Hard :
+
+- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) : [Carry and shift](9.others/Sum&#32;of&#32;Two&#32;Integers.md)
+- [Counting Bits](https://leetcode.com/problems/counting-bits/) : [Very cool question, Recursion](9.others/Count&#32;Bits.md)
 
 
 
