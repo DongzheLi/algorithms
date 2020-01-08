@@ -40,7 +40,7 @@
 
   - Breadth-first Search : Use a Queue, its not recursive
 
-    ```
+    ```java
     void search(Node root) {
         Queue queue = new Queue();
         root.marked = true;
@@ -63,9 +63,9 @@
 
 Graph:
 
-1. [Path between two Nodes](Questions/1.Path&#32;between&#32;two&#32;Nodes.md) : [BST or DST]
+1. [Path between two Nodes](Questions/1.Path&#32;between&#32;two&#32;Nodes.md) : BST or DFS
 
-7. [Build Order](Questions/7.BuildOrder.md)
+7. [Build Order](Questions/7.BuildOrder.md) : DFS or BFS to perform Topological sort
 
 Trees:
 

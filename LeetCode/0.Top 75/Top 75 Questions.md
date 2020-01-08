@@ -5,6 +5,8 @@ HashMap or HashSet
 + [Two Sum](https://leetcode.com/problems/two-sum/) : [HashMap : (key, value) = (element, its index)](1.Array/Two&#32;Sum.md)
 + [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)[HashMap, HashSet to count frequency](1.Array/Contains&#32;Duplicate.md)
 + [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) : [just maturity in writing code](1.Array/Product&#32;of&#32;Array&#32;Ecept&#32;Self.md)
+- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) : [Clever use of HashSet](7.Graph/Longest&#32;Consecutive&#32;Sequence.md)
+  
 
 Local maximal to Global maximal
 
@@ -96,6 +98,7 @@ Trie
 - [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [Jump Game](https://leetcode.com/problems/jump-game/)
+- [Super egg Drop](https://leetcode.com/problems/super-egg-drop/)
 
 
 ---
@@ -128,25 +131,39 @@ Trie
 
 ## Graph
 
+DFS, BFS
+
 - [Clone Graph](https://leetcode.com/problems/clone-graph/) : [DFS is way easier to write, BFS is doable too.](7.Graph/Clone&#32;Graph.md)
-- [Course Schedule](https://leetcode.com/problems/course-schedule/) [Topological Sort via DFS](7.Graph/Course&#32;Schedule.md)
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) : [DFS + little trick](7.Graph/Number&#32;of&#32;Islands.md)
 - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) : [DFS + Build adjancency list from edge list, same as number of islands](7.Graph/Connected&#32;Components.md)
 - [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) : [DFS + Build tree, same as the last one](7.Graph/Graph&#32;Valid&#32;Tree.md)
-- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) : [The code is too complicated](7.Graph/Water&#32;Flow.md)
+
+Topological sort
+
+- [Course Schedule](https://leetcode.com/problems/course-schedule/) [Topological Sort via DFS](7.Graph/Course&#32;Schedule.md)
 - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
-- [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) : [The code is too complicated]
+
 
 
 ---
 
 ## Interval
 
-- [Insert Interval](https://leetcode.com/problems/insert-interval/)
-- [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
-- [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) : [Very natural, follow your heart, Just Sort start time, then find overlapping](8.Interval/1.Meeting&#32;Rooms.md)
+- [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) : [Natural, but more complicated code, sort, and find overlapping, Or use a priority queue to represent rooms](8.Interval/2.Meeting&#32;Rooms&#32;II.md)
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/) : [Sort the start, compare next.start to curr.end, to merge, very natural](8.Interval/3.Merge&#32;Intervals.md)
+- [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) : [Same as previous one](8.Interval/4.Non&#32;Overlapping.md)
+- [Insert Interval](https://leetcode.com/problems/insert-interval/) : [The hardest of these all, but not that bad](8.Interval/5.Insert&#32;Interval.md)
+
+---
+
+## Matrix
+
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [Word Search](https://leetcode.com/problems/word-search/)
 
 ---
 
@@ -158,14 +175,9 @@ Trie
 - [Missing Number](https://leetcode.com/problems/missing-number/)
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
----
 
-## Matrix
 
-- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [Word Search](https://leetcode.com/problems/word-search/)
+
 
 
 
