@@ -123,9 +123,9 @@ Trie
 
 ## Heap
 
-- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) : [Classic Heap question, use Priority queue to find top k something](9.others/Top&#32;K&#32;Frequent.md)
+- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) : [Very good Practice, Priority Queue to merge](9.others/Merge&#32;K&#32;Sorted&#32;Lists.md)
+- [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) : [ Use two heaps to find Median](9.others/Find&#32;Median.md)
 
 ---
 
