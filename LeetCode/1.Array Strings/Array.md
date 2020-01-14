@@ -4,8 +4,8 @@ Array type of questions were asked in interviews frequently.
 
 ## Easy Questions:
 
-+ [Remove Duplicates from Sorted Array](RemoveDuplicates.md)
-+ [Best Time to Buy and Sell Stock II](BuySellStock.md)
++ [Remove Duplicates from Sorted Array](Solution/RemoveDuplicates.md) : Two pointer, in place, sort an array
++ [Best Time to Buy and Sell Stock II]
 + [Rotate Array](./Solution/RotateArray.md) : Reverse an Array, in place rotating is very hard
 + [Contains Duplicate](ContainsDuplicate.md)
 + [Single Number](./Solution/SingleNumber.md) : HashSet(HashMap), bit manipulation, `XOR`: exclusive or
