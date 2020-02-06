@@ -2,7 +2,7 @@
 
 ## Declarative Programming
 
-[Lectures](http://composingprograms.com/pages/43-declarative-programming.html)
+Resource: [cs61a Lectures](http://composingprograms.com/pages/43-declarative-programming.html)
 
 ## SQL syntax
 
