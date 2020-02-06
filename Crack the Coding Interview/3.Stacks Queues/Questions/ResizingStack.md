@@ -1,6 +1,8 @@
 # Resizing Array Stack
 
-Underlying is an Item[], resizes when it reaches capacity.
+The underlying structure is an Item[], it resizes when it reaches capacity.
+
+## Implementation:
 
 ```java
 public class ResizingArrayStack<Item> implements Iterable<Item> {

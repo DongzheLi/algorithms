@@ -1,8 +1,6 @@
-# Stack.
+# Stack
 
 Stack is last-in first-out ordering. Imagine a stck of dinner plates.
-
-![](img/stack.png)
 
 Operations:
 
@@ -10,6 +8,8 @@ Operations:
 + push(item): Add an item to the top of the stack.
 + peek(): Return the top of the stack.
 + isEmpty(): Return true iff the stack is empty.
+
+## Implementation:
 
 ```java
 public class Stack<Item> implements Iterable<Item> {
