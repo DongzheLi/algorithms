@@ -20,20 +20,7 @@ A solution set is:
 ]
 ```
 
-Algorithm:
-
-Find three indices i, j, k where nums[i] + num[j] + nums[k] = target.
-
-
-
-0. Sort the array. initialize solution list.
-1. From i = 0 to n - 2:
-
-    + j = i + 1, k = n - 1.
-    + while j < k :
-
-        + if (nums[i] + num[j] + nums[k] = target) triplet = {i, j, k}, solution.add(triplet)
-
+## Solution 1:
 
 ```java
 public List<List<Integer>> threeSum(int[] nums) {

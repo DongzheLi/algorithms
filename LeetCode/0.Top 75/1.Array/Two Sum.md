@@ -13,11 +13,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
----
-
-Solution:
-
-Brute force, Loop in a loop. O(n^2)
+## Solution 1: Brute force
 
 ```java
 public int[] twoSum(int[] nums, int target) {
@@ -33,11 +29,7 @@ public int[] twoSum(int[] nums, int target) {
 }
 ```
 
----
-
-Solution 1: Use a hashtable to invert index and value
-
-Keep everything in a HashMap, where (key, value) = (element, its index)
+## Solution 2: HashTable
 
 ```java
 public int[] twoSum(int[] nums, int target) {

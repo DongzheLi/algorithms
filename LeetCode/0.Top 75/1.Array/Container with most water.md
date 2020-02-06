@@ -16,10 +16,9 @@ i = 1, j = 9.
 output = 7 * (j - i - 1)
 ```
 
-Solution:
+## Solution 1:
 
-Basically, we are looking for the max[min(height[i], height[j]) * (j - i - 1)]
-
+We are looking for the max[min(height[i], height[j]) * (j - i - 1)]
 
 ```java
 public int maxArea(int[] height) {

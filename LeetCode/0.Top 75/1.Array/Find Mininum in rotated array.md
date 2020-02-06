@@ -8,34 +8,12 @@ Find the minimum element.
 
 Assume there is no duplicate.
 
----
 
-Solution: It is gonna be some sort of Binary search.
-
-## Solution 1:
+## Solution 1: Brute force
 
 Brute force: just iterate over the array, keep an instance variable as the minimal, and update it whenever see a minimal element.
 
 ## Solution 2: Binary search
-
-```
-trivial case: array is not rotated
-[1,2,3,4,5,6,7]
-First case: minimal is on left side
-[6,7,1,2,3,4,5]
-Second case: minimal is on right side
-[3,4,5,6,7,1,2]
-trivial case: minimal is right in the middle
-[5,6,7,1,2,3,4]
-```
-
-Algorithm:
-if it is not rotated, nums[left] < nums[right]
-
-int mid = (left + right) / 2
-
-if nums[left] > mid, search left, right = mid
-else nums[left] < mid, search right, left = mid
 
 ```java
 public int findMin(int[] nums) {

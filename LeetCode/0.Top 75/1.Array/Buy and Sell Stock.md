@@ -26,7 +26,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ---
 
-Solution: Brute force, O(n^2)
+## Solution 1: Brute force
 
 ```java
 public int maxProfit(int[] prices) {
@@ -41,11 +41,7 @@ public int maxProfit(int[] prices) {
 }
 ```
 
-Solution:
-
-We do realize, we need to keep track of lowest price, since for a period of data, if there is no lower price, then there is no point in comparing.
-
-Need to keep track of two things, max profit, and lowest data point.
+## Solution 2:
 
 ```java
 public int maxProfit(int[] prices) {

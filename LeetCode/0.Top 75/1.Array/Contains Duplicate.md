@@ -4,6 +4,8 @@ Given an array of integers, find if the array contains any duplicates.
 
 Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
 
+---
+
 Example:
 
 ```
@@ -17,9 +19,7 @@ Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
 ```
 
----
-
-Solution 1: Brute force
+## Solution 1: Brute force
 
 ```java
 public boolean containsDuplicate(int[] nums) {
@@ -33,9 +33,8 @@ public boolean containsDuplicate(int[] nums) {
 }
 ```
 
----
 
-Solution 2: Use a HashMap to count frequency
+## Solution 2: HashMap
 
 ```java
 public boolean containsDuplicate(int[] nums) {
@@ -49,9 +48,7 @@ public boolean containsDuplicate(int[] nums) {
 }
 ```
 
----
-
-Solution 3: We don't need a HashMap, just use a HashSet
+## Solution 3: HashSet
 
 ```java
 public boolean containsDuplicate(int[] nums) {

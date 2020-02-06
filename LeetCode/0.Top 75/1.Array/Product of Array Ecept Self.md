@@ -2,6 +2,8 @@
 
 Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
+---
+
 Example:
 
 ```
@@ -10,11 +12,7 @@ Output: [24,      12,      8,     6]
         [2*3*4, 1*3*4, 1*2*4, 1*2*3]
 ```
 
-Do it without division.
-
----
-
-Solution:
+## Solution 1:
 
 ```java
 public int[] productExceptSelf(int[] nums) {
@@ -43,6 +41,8 @@ public int[] productExceptSelf(int[] nums) {
     return result;
 }
 ```
+
+## Solution 2:
 
 ```java
 public int[] productExceptSelf(int[] nums) {
