@@ -45,11 +45,11 @@ public class CardGame {
 
 ## Questions
 
-1. [Deck of Cards]
-2. [Call center]
-3. [Parking lot]
-4. [Chat server]
-5. [Online book reader]
-6. [Circular Array]
-7. [File System]
-8. [Hash Table]
+1. Deck of Cards
+2. Call center
+3. Parking lot
+4. Chat server
+5. Online book reader
+6. Circular Array
+7. File System
+8. Hash Table

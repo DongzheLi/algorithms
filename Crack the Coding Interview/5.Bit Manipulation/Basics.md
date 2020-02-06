@@ -138,7 +138,7 @@ x | x = x
 
 ---
 
-## Two's Complement and Negative Numbers
+## Two's Complement
 
 -K(negative K) as a N-bit number is concat(1, 2^(N-1) - k)
 
