@@ -2,6 +2,8 @@
 
 [Leetcode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
+## Solution 1:
+
 ```java
 public int maxProfit(int[] prices) {
     int n = prices.length;
@@ -18,6 +20,8 @@ public int maxProfit(int[] prices) {
 
 
 [Leetcode 122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+## Solution 1:
 
 TotalProfit = sum(peeks) - sum(vallys)
 

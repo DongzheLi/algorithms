@@ -2,6 +2,8 @@
 
 [Leetcode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
+## Solution 1:
+
 ```java
 public int removeDuplicates(int[] nums) {
     Arrays.sort(nums);

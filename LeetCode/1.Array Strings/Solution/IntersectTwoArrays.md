@@ -2,6 +2,8 @@
 
 Given two arrays, write a function to compute their intersection.
 
+---
+
 Example:
 
 ```
@@ -24,36 +26,8 @@ Follow up:
 + What if you have limited space?
 
 
+## Soluton 1: HashMap
 
-My thoughts:
-1. we can sort both arrays.
-2. find the smaller one, say nums2, start to see if last element in nums2 is in nums1, and second last and so on.
-3. at each time, we can just search the part from 0 to where last element in nums2 in nums1.
-
-Also, we need to see how to handle duplicates, 
-
-### Soluton 1: HashMap
-
-We need HashMap, since there is duplicates, we need a key-value pair to be value-count.
-
-Check array size, put smaller one into a HashMap. Better for memory usage too.
-
-Algorithm:
-
-0. Check size, if nums1 is larger than nums2, swap them.
-1. For every element in nums1:
-    
-    + Add it to hashmap m; increment count if already there.
-
-2. Initialize insertion pointer(k) with 0.
-3. Iterate over nums2:
-
-    + if current element is in nums1 and count is positive:
-
-        + Copy this number to nums1[k], and increment k.
-        + Decrement the count in hash map.
-
-4. return the first k elements.
 ```java
 class solution {
     public int[] intersect(int[] nums1, int[] nums2) {
@@ -87,20 +61,6 @@ Notes:
 + `Arrays.copyOfRange(nums1, 0, k)` a very useful array method
 
 ## Solution 2: Sort
-
-We sort both arrays, and use two-pointers to find common numbers in a single scan.
-
-Algorithm:
-
-1. Sort nums1 and nums2
-2. Initialize i, j, k with zero
-3. Move i along nums1, j along nums2:
-
-    + Increment i if nums1[i] is smaller
-    + Increment j if nums2[j] is smaller
-    + If nums1[i] == nums2[j], copy number into nums1[k], and increment i, j, k
-
-4. return first k elements of nums1
 
 ```java
 class solution {

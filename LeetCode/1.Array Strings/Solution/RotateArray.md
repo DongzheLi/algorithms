@@ -2,6 +2,8 @@
 
 Given an array, rotate the array to the right by K steps, where k is non-negative.
 
+---
+
 Examples:
 
 ```
@@ -12,23 +14,7 @@ Input  = [-1,-100,3,99], k = 2
 Output = [3,99,-1,-100]
 ```
 
-My thoughts: 
-
-First observation is that, given k, n = nums.length, we can get nums[n-k], from this index to the end of the array will be the first part of the array, and from nums[0] to nums[n-k-1] will be the second part.
-
-Also the function doesn't return anything, so we have to modify the original array.
-
 ## Solution1: Use Extra array(extra memory)
-
-Algorithm:
-
-1. Initialize an extra array a with nums.length size.
-2. Iterate over nums:
-
-    + For each index i:
-
-        + a[i+k] % nums.length = nums[i], we need `%nums.length` since the second half will rotate over
-3. Copy a to nums.
 
 ```java
 class solution {
@@ -54,31 +40,7 @@ Note:
 + Space: O(n)
 
 
-## Solution2: Use Cyclic Replacement, in place
-
-We can directly replace every element of the array with required rotated one, but we have to keep a reference to the original one.
-
-Idea: start at index 0, we move nums[0] to nums[k], and keep a reference temp = nums[k], then move temp=nums[k] to nums[k+k], and so on.
-
-e.g.
-
-```
-nums = [1,2,3,4], k = 2.
-n = nums.length = 4
-idx = 0, start = 0
-idx = (idx+k) % n = 2,
-idx = (idx+k) % n = 0,
-now idx = start, increment both, idx = 1, start = 1.
-```
-Algorithm:
-
-1. Initialize count = 0
-2. Iterate over nums:
-
-    + For every index i:
-
-        + store 
-
+## Solution2: Cyclic Replacement in place
 
 ```java
 class Solution {
@@ -102,7 +64,7 @@ class Solution {
 }
 ```
 
-## Solution3: Reverse
+## Solution3: Reverse the array
 
 Example:
 
