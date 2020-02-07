@@ -22,6 +22,8 @@ Becomes
 9   6 3   1
 ```
 
+## Solution 1:
+
 ```java
 public TreeNode invertTree(TreeNode root) {
     if (root == null) return null;

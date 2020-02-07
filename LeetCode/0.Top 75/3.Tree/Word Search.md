@@ -19,11 +19,7 @@ words = ["oath","pea","eat","rain"]
 Output: ["eat","oath"]
 ```
 
----
-
-## Solution:
-
-Implement a trie
+## Solution 1: Trie
 
 ```java
 class TrieNode {

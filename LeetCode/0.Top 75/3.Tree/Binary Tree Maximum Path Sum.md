@@ -25,9 +25,7 @@ Output: 2 + 1 + 3 = 6
 Output: 15 + 20 + 7 = 42
 ```
 
----
-
-# Solution:
+# Solution 1:
 
 ```java
 class Solution {
@@ -48,7 +46,7 @@ class Solution {
 }
 ```
 
-Recursion tree
+Recursion tree of this algorithm:
 
 ```
    -10

@@ -15,9 +15,7 @@ as
 "[1,2,3,null,null,4,5]"
 ```
 
----
-
-## Solution : Pre-Order Traversal
+## Solution 1: Pre-Order Traversal
 
 Preorder does : root->left subtree-> right subtree
 

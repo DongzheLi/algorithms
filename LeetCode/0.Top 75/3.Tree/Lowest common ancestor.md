@@ -18,9 +18,8 @@ LCA(2, 8) = 6
 
 LCA(2, 4) = 2
 
----
 
-## Solution:
+## Solution 1:
 
 ```java
 /** Returns the lowest common ancestor of p and q in root. */

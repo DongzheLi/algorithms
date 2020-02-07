@@ -18,10 +18,7 @@ Example:
 
 Maximum depth = 3
 
-
----
-
-## Solution : Recursion
+## Solution 1: Recursion
 
 ```java
 public class TreeNode {

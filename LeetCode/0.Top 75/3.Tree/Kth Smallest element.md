@@ -26,9 +26,7 @@ k = 3
 Output: 3
 ```
 
----
-
-## Solution: Inorder traversal, recursion
+## Solution 1: Inorder traversal, recursion
 
 ```java
 class Solution {
@@ -48,9 +46,7 @@ class Solution {
 }
 ```
 
-## Solution: Iteration
-
-This solution can finish faster, we just iterate to find the kth element.
+## Solution 2: Iteration
 
 ```java
 public int kthSmallest(TreeNode root, int k) {

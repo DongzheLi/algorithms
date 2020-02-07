@@ -25,9 +25,7 @@ Input:     1         1
 Output: false
 ```
 
----
-
-## Solution:
+## Solution 1:
 
 ```java
 public boolean isSameTree(TreeNode p, TreeNode q) {

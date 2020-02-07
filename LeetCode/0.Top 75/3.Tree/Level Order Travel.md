@@ -2,7 +2,9 @@
 
 Given a binary tree, return the level order traversal of its nodes' values.
 
-For example:
+---
+
+Example:
 
 Given binary tree [3,9,20,null,null, 15, 7]
 
@@ -24,36 +26,7 @@ Returns
 ]
 ```
 
----
-
-## Solution: Recursive
-
-Algorithm:
-
-0. Create a global variable levels = [];
-1. start with root = 3, level 0:
-
-    + levels = [[]], add a new list into levels as level0
-    + levels = [[3]]
-    + call helper(node.left = 9):
-
-        + levels = [[3],[]]
-        + levels = [[3],[9]], return.
-
-    + call helper(node.right = 20):
-
-        + levels = [[3],[9]]
-        + levels = [3],[9,20]
-        + call helper(node.left = 15):
-
-            + levels = [[3],[9,20]]
-            + levels = [[3],[9,20],[15]], return
-
-        + call helper(node.right = 7):
-
-            + levles = [[3],[9,20],[15]],
-            + levels = [[3],[9,20],[15,7]], return
-    + return
+## Solution 1: Recursion
 
 ```java
 class Solution {

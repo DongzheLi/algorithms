@@ -2,17 +2,13 @@
 
 Given a binary tree, determine if it is a valid binary search tree
 
-A tree is a BST:
+A tree is a BST if and only if:
 
     + the left tree only contains nodes less than the node's val
     + the right tree only contains nodes larger than the node's val
     + Bothe left and right subtree must also be BST.
 
----
-
-## Solution: Recursion
-
-For each node, we need to realize node.val has to be smaller than its left, but also need to be smaller than the largest val in its left.
+## Solution 1: Recursion
 
 ```java
 class Solution {

@@ -21,11 +21,7 @@ t:
  1   2
 ```
 
-True.
-
----
-
-## Solution:
+## Solution 1:
 
 ```java
 /** Just need to check if t is a subtree of s. */

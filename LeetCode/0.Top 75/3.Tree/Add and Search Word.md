@@ -6,7 +6,7 @@ void addWord(word)
 
 boolean search(word)
 
-Use a Trie.
+## Solution 1: Trie.
 
 ```java
 class TrieNode {
