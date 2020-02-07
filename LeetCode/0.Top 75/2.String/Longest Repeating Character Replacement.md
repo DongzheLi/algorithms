@@ -29,20 +29,9 @@ Replace the one 'A' in the middle with 'B' and form "AABBBBA".
 The substring "BBBB" has the longest repeating letters, which is 4.
 ```
 
----
 
-Solution: **Sliding window** with character table int[26]
 
-idea: s[i,j), initially i = j. for each window starts at i, we want to find the most frequent character + k opeartions to make, that is the longest repeating character substring start at i.
-
-Algorithm:
-
-+ initialize:
-   
-   + charTable int[26]
-   + sliding window: i = 0, j = 0.
-   + we want to count the most frequent char: maxCount = 0
-   + The value to return: maxLength
+## Solution 1: Sliding window with character table int[26]
 
 ```java
 public int characterReplacement(String s, int k) {

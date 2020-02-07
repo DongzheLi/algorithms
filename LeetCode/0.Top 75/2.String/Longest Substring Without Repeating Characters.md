@@ -2,6 +2,8 @@
 
 Given a string, find the length of the longest substring without repeating characters.
 
+---
+
 Example:
 
 ```
@@ -23,11 +25,7 @@ Explanation: The answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
 
----
-
-## Solution 1
-
-Brute force: find all substrings that has no duplicates, find the max length.
+## Solution 1: Brute force
 
 ```java
 /* Generate all substring, see if it contains no duplicate characters. */
@@ -56,21 +54,7 @@ private boolean allUnique(String s, int start, int end) {
 }
 ```
 
----
-
-Solution 2: Sliding window
-
-If a substring s(i, j) from index i to j-1 has no duplicate. 
-
-We don't need to check s(i, j+1) has no duplicate, we only need to check if s(i, j) contains s(j+1).
-
-Again, we use a hashset to check for duplicates.
-
-Algorithm:
-
-Use HashSet to store characters in current window [i, j) (j = i initially.)
-
-We slide j to the right, j++. If it is not in the HashSet, we slide j further.
+## Solution 2: Sliding window
 
 ```java
 public int lengthOfLongestSubstring(String s) {
@@ -91,15 +75,7 @@ public int lengthOfLongestSubstring(String s) {
 }
 ```
 
----
-
-Solution 3: Sliding windown Optimized(use HashMap)
-
-We don't have to slide i 1 by 1.
-
-if s[j] is a duplicate in s[i, j), say s[j'], we don't need to increase i 1 by 1, we can jump to j' + 1 directly.
-
-For each character in String, we want to keep its index too.
+## Solution 3: Sliding windown Optimized(use HashMap)
 
 ```java
 public int lengthOfLongestSubstring(String s) {

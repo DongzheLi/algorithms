@@ -20,6 +20,8 @@ Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 ```
 
+## Solution 1:
+
 ```java
 public int countSubstrings(String s) {
     int count = 0;

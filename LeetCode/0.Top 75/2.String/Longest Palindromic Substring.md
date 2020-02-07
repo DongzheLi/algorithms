@@ -15,7 +15,7 @@ Input: "cbbd"
 Output: "bb"
 ```
 
----
+## Solution 1:
 
 ```java
 public String longestPalindrome(String s) {

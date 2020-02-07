@@ -16,13 +16,7 @@ Input: "race a car"
 Output: false
 ```
 
----
-
-Solution:
-
-We need to get rid of all other characters such as space or commas or whatever.
-
-Then we just need to see if string.equals(its reverse)
+## Solution 1:
 
 ```java
 public boolean isPalindrome(String s) {
@@ -35,13 +29,7 @@ public boolean isPalindrome(String s) {
 }
 ```
 
-
----
-
-Solution 2: two pointer
-
-We can just use two pointers, one travel from the start, one travel from the end, ignore other characters, compare alphabet or numbers.
-
+## Solution 2: two pointer
 
 ```java
 public boolean isPalindrome(String s) {

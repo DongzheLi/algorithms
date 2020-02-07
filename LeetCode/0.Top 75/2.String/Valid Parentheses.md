@@ -10,9 +10,7 @@ An input string is valid if:
 
 Note that an empty string is also considered valid.
 
----
-
-Solution:
+## Solution 1:
 
 ```java
 public boolean isValid(String s) {
@@ -62,21 +60,4 @@ public boolean isValid(String s) {
 	}
 	return stack.isEmpty();
 }
-```
-
-Example:
-```
-"( ) ( { [ ] } )"
-stack = [], the first element is the top of the stack.
-0. c = "(", stack = [")"]
-1. c = ")", stack is not empty stack.pop() = ")", stack=[]
-2. c = "(", stack = [")"]
-3. c = "{", stack = ["}", ")"]
-4. c = "[", stack = ["]", "}", ")"]
-5. c = "]", stack.pop = "]" = c, stack = ["}", ")"]
-6. c = "}", stack.pop = "}" = c, stack = [")"]
-7. c = ")", stack.pop = ")" = c, stack = [].
-
-We finsihed our loop. 
-stack is empty, return true.
 ```

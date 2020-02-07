@@ -2,6 +2,8 @@
 
 Given an array of strings, group anagrams together.
 
+---
+
 Example:
 
 ```
@@ -14,11 +16,7 @@ Output:
 ]
 ```
 
----
-
-This is basically the same question as the last one, slightly more complicated.
-
-Because just how complicated the code is, I use sort a string to check anagram.
+## Solution 1:
 
 ```java
 public List<List<String>> groupAnagrams(String[] strs) {

@@ -22,23 +22,7 @@ My thoughts:
 
 1. It is obviously sliding window, but how do we do that, we know the minimal length is T.length(). maximal length is S.length().
 
-Algorithm:
-
-```
-left
-A   D   O   B   E   C   O   D   E   B   A   N   C
-right
-Move right pointer until we contain T = "ABC". => ADOBEC
-Move left  pointer until the window breaks, no longer contain T, => DOBEC, we start moving right pointer again
-Move right pointer until we cantain T => "DOBECODEBA"
-Move left pointer until the window breaks => "ODEBA", this step is a problem , we can use a map to keep occurances of each letter, or a ASCII table
-Move right until we contain T, => "ODEBANC"
-Move left                     => "BANC"
-```
-
----
-
-Implementation:
+## Solution 1:
 
 ```java
 public String minWindow(String s, String t) {

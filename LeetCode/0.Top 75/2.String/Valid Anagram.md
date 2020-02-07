@@ -11,11 +11,7 @@ s = "anagram", t = "nagaram"
 Output = true
 ```
 
----
-
-Solution:
-
-Classic question, Use HashMap to build a frequency table for first word, then subtract occurences from the second word.
+## Solution 1: Frequency table
 
 ```java
 public boolean isAnagram(String s, String t) {
@@ -51,9 +47,7 @@ Notes:
 `HashMap.getOrDefault()` : [doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html#getOrDefault-java.lang.Object-V-)
 
 
----
-
-Solution 2: ASCII
+## Solution 2: ASCII
 
 If we assume there is only letters in this thing, espically only "abc", lower letters.
 
